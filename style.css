@@ -1,0 +1,84 @@
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(243.33deg, #0a0a0a 0%, #000000 99.77%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3,
+h1 {
+  color: #ffffff;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #9c0fee;
+}
+
+h3 {
+  font-weight: 300;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.findme {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 147px;
+  height: 47px;
+  background: linear-gradient(74.5deg, #3c096c 0%, #8900da 46.74%);
+  border-radius: 8px;
+  transition: all .1s linear;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.icon{
+    transition: all .2s ease-in-out;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
