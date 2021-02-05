@@ -86,3 +86,20 @@ h3 {
 .icon:hover{
     transform: scale(1.2);
 }
+
+.project{
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  background: linear-gradient(74.5deg, #3c096c 0%, #8900da 46.74%);
+transition: .3s all;
+}
+.project:hover{
+  background-color: #9c0fee;
+  color: white;
+  transform: scale(1.05);
+}
